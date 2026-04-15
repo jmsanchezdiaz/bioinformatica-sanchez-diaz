@@ -9,9 +9,9 @@
 
 **Qué nos cuenta su historia acerca del mundo de la ciencia?**
 
-    El crédito científico no siempre va a quien hace el trabajo, sino a quien publica primero.
-    El sexismo estructural del mundo académico invisibilizó activamente a mujeres capaces.
-    Las reglas del Nobel (no póstumo, máximo 3 personas) hacen posible borrar contribuciones enteras.
+El crédito científico no siempre va a quien hace el trabajo, sino a quien publica primero.
+El sexismo estructural del mundo académico invisibilizó activamente a mujeres capaces.
+Las reglas del Nobel (no póstumo, máximo 3 personas) hacen posible borrar contribuciones enteras.
 
 PARA PENSAR: ¿Cuántas proteínas puede sintetizar un organismo? ¿De qué depende la cantidad y la característica de las proteínas que puede sintetizar un organismo? Depende del organismo y la estructura primaria que determina todo lo demas.
 
