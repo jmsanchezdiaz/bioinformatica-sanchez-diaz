@@ -16,15 +16,15 @@ Si se usara el resto de las secuencias del análisis, el árbol permitiría ubic
 
 ## Desafio III
 
-Modelo de Sustitución
+#### Modelo de Sustitución
 El modelo de sustitución describe matemáticamente cómo cambian los aminoácidos o nucleótidos durante la evolución. Es fundamental elegir el correcto: para proteínas como Cytochrome c usamos WAG, no GTR (que es para DNA). Diferentes modelos reflejan diferentes tasas y patrones de cambio evolutivo.
 
-Bootstrap
+#### Bootstrap
 Es un método de remuestreo donde generamos 1000 versiones aleatorias del alineamiento original (tomando posiciones al azar con reemplazo) y construimos un árbol para cada una. Luego contamos: de esos 1000 árboles, ¿en cuántos aparece cada rama? El porcentaje es el valor de soporte de bootstrap.
 
 Ejemplo: si una rama aparece en 900 de 1000 árboles = 90% de soporte = esa agrupación es confiable.
 
-Calidad del Árbol
+#### Calidad del Árbol
 El bootstrap solo mide robustez estadística:
 
 > 90%: Rama muy confiable
@@ -33,13 +33,23 @@ El bootstrap solo mide robustez estadística:
 
 Un alto valor no garantiza que sea biológicamente correcto, solo que es consistente en nuestros datos.
 
-Número de Bootstraps
+#### Número de Bootstraps
 A más bootstraps, más precisión, pero con rendimientos decrecientes. El estándar es 1000 bootstraps para proteínas. Pasar de 100 a 1000 mejora mucho; pasar de 1000 a 2000 mejora poco.
 
 (Utilice otra pagina por que no me funcionaba figtree) (Utilice ITOL)
 <img width="1145" height="274" alt="Captura de pantalla 2026-06-17 a la(s) 5 43 51 p  m" src="https://github.com/user-attachments/assets/03e2f86a-8763-445f-9902-da268898a625" />
 
-Conclusiones:
+* Rhizobium sp. CF097 (WP_037127040) — bacteria, outgroup
+* Drosophila melanogaster — animal (insecto)
+* bartmosca — animal (humano-insecto?)
+* Homo sapiens — animal (mamífero)
+* Ectocarpus siliculosus — alga parda (heteroconta)
+* Hordeum vulgare — planta (monocot)
+* Vigna radiata — planta (leguminosa)
+* Lupinus albus — planta (leguminosa)
+* Betula platyphylla — planta (árbol)
+
+#### Conclusiones:
 - Respeta la división fundamental procariota-eucariota
 - Separa correctamente plantas de animales
 - Las plantas se agrupan entre sí
